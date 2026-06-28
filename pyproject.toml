@@ -54,3 +54,11 @@ py-modules = ["auto_metadata_ksampler_stamp"]
 
 [tool.setuptools.package-data]
 "*" = ["*.md", "*.txt", "LICENSE"]
+
+# ============================================
+# Comfy Registry Metadata
+# ============================================
+[tool.comfy]
+PublisherId = "stevelasmin4real"
+DisplayName = "Auto_Metadata_Ksampler_Stamp by Steve Lasmin"
+Icon = ""
