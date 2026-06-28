@@ -33,14 +33,14 @@ Works with **multiple KSamplers** in a single workflow — each one gets its own
 
 ```bash
 cd ComfyUI/custom_nodes
-git clone https://github.com/Eklipsis/Auto_Metadata_Ksampler_Stamp.git
+git clone https://github.com/Eklipsis/auto_metadata_ksampler_stamp_by_steve_lasmin.git
 ```
 
 Restart ComfyUI.
 
 ### Method 2: Manual Download
 
-1. Download the [latest release](https://github.com/Eklipsis/Auto_Metadata_Ksampler_Stamp/releases)
+1. Download the [latest release](https://github.com/Eklipsis/auto_metadata_ksampler_stamp_by_steve_lasmin/releases)
 2. Extract the folder into `ComfyUI/custom_nodes/`
 3. Restart ComfyUI
 
@@ -104,6 +104,13 @@ Copyright (c) 2026 Steve Lasmin. All rights reserved.
 ---
 
 ## Changelog
+
+### v1.0.1
+- Fixed false-positive KSampler detection (removed overly broad "Sampler" string match)
+- Added validation: real KSamplers must have `steps` and `cfg` inputs
+- Updated all repo links to live GitHub URL
+- Added `pyproject.toml` Comfy Registry metadata
+- Added `.comfyignore` for clean registry publishing
 
 ### v1.0.0
 - Initial release

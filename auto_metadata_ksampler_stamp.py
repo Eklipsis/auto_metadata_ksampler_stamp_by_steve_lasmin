@@ -5,7 +5,7 @@ A ComfyUI custom node that automatically extracts KSampler metadata
 from the workflow JSON and stamps it onto the bottom of generated images.
 
 Author: Steve Lasmin (Eklipsis)
-GitHub: https://github.com/Eklipsis
+GitHub: https://github.com/Eklipsis/auto_metadata_ksampler_stamp_by_steve_lasmin
 Support: https://boosty.to/stevelasmin
 Email: real.eclipse@gmail.com
 

@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "auto-metadata-ksampler-stamp"
-version = "1.0.0"
+version = "1.0.1"
 description = "A ComfyUI custom node that automatically extracts KSampler metadata and stamps it onto generated images."
 readme = "README.md"
 license = {text = "Steve Lasmin Custom License — Free to use, modification prohibited without explicit approval."}
@@ -41,9 +41,9 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/Eklipsis/Auto_Metadata_Ksampler_Stamp"
-Repository = "https://github.com/Eklipsis/Auto_Metadata_Ksampler_Stamp"
-Issues = "https://github.com/Eklipsis/Auto_Metadata_Ksampler_Stamp/issues"
+Homepage = "https://github.com/Eklipsis/auto_metadata_ksampler_stamp_by_steve_lasmin"
+Repository = "https://github.com/Eklipsis/auto_metadata_ksampler_stamp_by_steve_lasmin"
+Issues = "https://github.com/Eklipsis/auto_metadata_ksampler_stamp_by_steve_lasmin/issues"
 Funding = "https://boosty.to/stevelasmin"
 "Author Boosty" = "https://boosty.to/stevelasmin"
 "Author GitHub" = "https://github.com/Eklipsis"
