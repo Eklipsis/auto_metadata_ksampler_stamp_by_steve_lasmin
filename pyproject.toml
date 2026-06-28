@@ -1,0 +1,56 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "auto-metadata-ksampler-stamp"
+version = "1.0.0"
+description = "A ComfyUI custom node that automatically extracts KSampler metadata and stamps it onto generated images."
+readme = "README.md"
+license = {text = "Steve Lasmin Custom License — Free to use, modification prohibited without explicit approval."}
+requires-python = ">=3.9"
+authors = [
+    {name = "Steve Lasmin", email = "real.eclipse@gmail.com"}
+]
+keywords = [
+    "comfyui",
+    "comfyui-node",
+    "ksampler",
+    "metadata",
+    "image-generation",
+    "stable-diffusion",
+    "ai",
+    "workflow"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: End Users/Desktop",
+    "License :: Other/Proprietary License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Multimedia :: Graphics",
+]
+dependencies = [
+    "Pillow>=9.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/Eklipsis/Auto_Metadata_Ksampler_Stamp"
+Repository = "https://github.com/Eklipsis/Auto_Metadata_Ksampler_Stamp"
+Issues = "https://github.com/Eklipsis/Auto_Metadata_Ksampler_Stamp/issues"
+Funding = "https://boosty.to/stevelasmin"
+"Author Boosty" = "https://boosty.to/stevelasmin"
+"Author GitHub" = "https://github.com/Eklipsis"
+
+[tool.setuptools]
+packages = ["auto_metadata_ksampler_stamp_by_steve_lasmin"]
+py-modules = ["auto_metadata_ksampler_stamp"]
+
+[tool.setuptools.package-data]
+"*" = ["*.md", "*.txt", "LICENSE"]

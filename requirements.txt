@@ -1,0 +1,5 @@
+# Auto_Metadata_Ksampler_Stamp by Steve Lasmin
+# Requirements
+# Pillow is usually already included with ComfyUI, but listed here for completeness.
+
+Pillow>=9.0.0
